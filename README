@@ -1,0 +1,26 @@
+IPsat and IPnonsat fits to HERA data
+H. Mäntysaari and P. Zurita, 2018-2019
+When using this work, please cite Phys.Rev. D98 (2018) 036002 (arXiv:1804.05311) 
+
+Questions, comments and bug repots:
+Heikki Mäntysaari <heikki.mantysaari@jyu.fi>
+
+For example about how to use this, see example/main.cpp
+
+Build instructions:
+mkdir build
+cd build
+cmake ..
+make
+
+The library build/lib/libmzipsat.a can be linked to your own codes
+
+All dimensionfull variables have dimension GeV^n
+
+The alpha_s code is translated in C++ by Thomas Ullrich
+It is originally from 
+Andreas Vogt's QCD-PEGASUS package (hep-ph/0408244)
+
+The DLGAP evolution code is translated in C++ by Thomas Ullrich
+and is originally written by Pia Zurita/collaborators.
+
