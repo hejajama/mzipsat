@@ -19,7 +19,7 @@ using namespace std;
 // Example
 int main(int argc, char* argv[])
 {
-    MZ_ipsat::DipoleAmplitude amplitude(MZ_ipsat::MZ_IPNONSAT); // use MZ_IPNONSAT for linearized
+    MZ_ipsat::DipoleAmplitude amplitude(MZ_ipsat::MZ_IPSAT); // use MZ_IPNONSAT for linearized
 	// Tabulate DGLAP evolution, faster evaluation of the dipole
 	amplitude.EnableLookupTable();    
     

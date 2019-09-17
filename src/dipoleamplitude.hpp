@@ -30,7 +30,7 @@ class DipoleAmplitude
          * Constructors: user can specify his own initial condition, or use
          * fixed fit results (MZ_IPSAT and MZ_IPNONSAT)
          */
-        DipoleAmplitude(IPSAT_PARAMETRIZATION mode);
+        DipoleAmplitude(IPSAT_PARAMETRIZATION mode=MZ_IPSAT);
         DipoleAmplitude(double C_, double mu0_, double lambda_g_, double A_g_, double mc_, double mb_=4.75, double mt_=175 );
         ~DipoleAmplitude();
     
